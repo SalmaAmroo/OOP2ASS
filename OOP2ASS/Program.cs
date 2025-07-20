@@ -183,7 +183,7 @@ namespace OOP2ASS
     #endregion
 
     #region Q4
-    //    #region Enums
+    //#region Enums
     //[Flags]
     //enum Permission
     //{
@@ -336,6 +336,8 @@ namespace OOP2ASS
 
     //}
     #endregion
+
+
     internal class Program
     {
 
@@ -369,9 +371,9 @@ namespace OOP2ASS
             //Console.WriteLine($"Hire Date: {hireDate}");
             #endregion
 
-            #region CallQ4
+            #region CallQ4 & CallQ5
             //Employee[] EmpArr = new Employee[3];
-            //EmpArr[0] = new Employee(1, "Karim", 50000, new DateTime(2020, 1, 1), SecurityLevel.SecurityOfficer, Permission.Read | Permission.Write | Permission.Execute | Permission.Delete);
+            //EmpArr[0] = new Employee(1, "Karim", 50000, new DateTime(2023, 1, 1), SecurityLevel.SecurityOfficer, Permission.Read | Permission.Write | Permission.Execute | Permission.Delete);
             //EmpArr[1] = new Employee(2, "Salma", 60000, new DateTime(2021, 2, 2), SecurityLevel.DBA, Permission.Read | Permission.Write);
             //EmpArr[2] = new Employee(3, "Hoda", 70000, new DateTime(2022, 3, 3), SecurityLevel.Guest, Permission.Read);
 
@@ -381,6 +383,12 @@ namespace OOP2ASS
             //    Console.WriteLine();
             //}
 
+            //#region Q5
+            //Array.Sort(EmpArr, (e1, e2) => e1.HireDate.CompareTo(e2.HireDate));
+            //Console.WriteLine("After Sorting by Hire Date:\n");
+            //foreach (var emp in EmpArr)
+            //    Console.WriteLine(emp + "\n");
+            //#endregion
             #endregion
 
         }
