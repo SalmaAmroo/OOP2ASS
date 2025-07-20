@@ -337,6 +337,55 @@ namespace OOP2ASS
     //}
     #endregion
 
+    #region Q6
+    //class Book
+    //{
+    //    public string? Title { get; set; }
+    //    public string? Author { get; set; }
+    //    public string? ISBN { get; set; }
+
+    //    public Book(string Title,string Author,string ISBN) 
+    //    {
+    //        this.Title = Title;
+    //        this.Author = Author;   
+    //        this.ISBN = ISBN;
+    //    }
+    //    public virtual void DisplayInfo()
+    //    {
+    //        Console.WriteLine($"Title: {Title}\nAuthor: {Author}\nISBN: {ISBN}");
+    //    }
+
+    //}
+    //class EBook : Book
+    //{ 
+    // public double FileSize { get; set; }
+     
+    // public EBook(string Title, string Author, string ISBN, double FileSize) :base(Title,Author,ISBN)
+    // {
+    //        this.FileSize = FileSize;
+    // }
+    // public override void DisplayInfo()
+    // {
+    //        base.DisplayInfo();
+    //        Console.WriteLine($"File Size: {FileSize} MB");
+    // }
+
+    //}
+    //class PrintedBook : Book
+    //{
+    //    public int PageCount { get; set; }
+    //    public PrintedBook(string Title, string Author, string ISBN, int PageCount) : base(Title, Author, ISBN)
+    //    {
+    //        this.PageCount = PageCount;
+    //    }
+    //    public override void DisplayInfo()
+    //    {
+    //        base.DisplayInfo();
+    //        Console.WriteLine($"Page Count: {PageCount}");
+    //    }
+    //}
+    #endregion
+
 
     internal class Program
     {
@@ -389,6 +438,15 @@ namespace OOP2ASS
             //foreach (var emp in EmpArr)
             //    Console.WriteLine(emp + "\n");
             //#endregion
+            #endregion
+
+            #region CallQ6
+            //EBook eBook = new EBook("C# Programming", "John Doe", "123-4567890123", 5.5);
+            //PrintedBook printedBook = new PrintedBook("Learning OOP", "Jane Smith", "987-6543210987", 300);
+            //Console.WriteLine("EBook Information:");
+            //eBook.DisplayInfo();
+            //Console.WriteLine("\nPrinted Book Information:");
+            //printedBook.DisplayInfo();
             #endregion
 
         }
